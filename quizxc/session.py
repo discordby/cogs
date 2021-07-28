@@ -43,6 +43,7 @@ class TriviaSession:
     To run the trivia session immediately, use `TriviaSession.start` instead of
     instantiating directly.
 
+
     Attributes
     ----------
     ctx : `commands.Context`
