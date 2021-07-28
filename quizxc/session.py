@@ -129,7 +129,7 @@ class TriviaSession:
         timeout = self.settings["timeout"]
         for question, answers in self._iter_questions():
             async with self.ctx.typing():
-                await asyncio.sleep(23)
+                await asyncio.sleep(8)
             self.count += 1
             msg = bold(_("Question number {num}!").format(num=self.count)) + "\n\n" + question
             await self.ctx.send(msg)
